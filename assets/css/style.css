@@ -42,10 +42,6 @@ header p:last-child {
 
 /* MAIN */
 
-main {
-  /* padding: 10px; */
-}
-
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 article h1 {
@@ -138,6 +134,10 @@ thead th {
 tbody td {
   padding: 10px;
   border-top: 1px solid darkgray;
+}
+
+tbody .gray {
+  background-color: lightgray;
 }
 
 #table hr {
