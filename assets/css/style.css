@@ -109,13 +109,51 @@ article h1 {
   list-style: decimal;
 }
 
+.tool {
+  text-align: left;
+}
+.tool p {
+  padding-top: 20px;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
 /* TABELLE */
+
+table caption {
+  font-weight: bold;
+  font-style: italic;
+}
+thead {
+  background-color: rgb(65, 65, 193);
+}
+
+thead th {
+  border-right: 1px solid white;
+  padding: 15px 15px;
+}
+
+tbody td {
+  padding: 10px;
+  border-top: 1px solid darkgray;
+}
+
+#table hr {
+  border: 1.5px solid blue;
+}
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer {
+  background-image: linear-gradient(#0099c2, #043947);
+  text-align: center;
+  box-shadow: 2px 5px 5px rgba(53, 55, 58, 0.781);
+}
 
 /* icone 
 
