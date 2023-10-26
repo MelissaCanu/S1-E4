@@ -57,6 +57,7 @@ article h1 {
   text-align: center;
   margin-top: 30px;
   box-shadow: 1px 3px 4px rgba(53, 55, 58, 0.781);
+  margin-bottom: 30px;
 }
 
 .subtitle-gray {
@@ -145,6 +146,7 @@ tbody .gray {
 
 #table hr {
   border: 1.5px solid blue;
+  margin: 0;
 }
 
 /* FORM */
@@ -156,8 +158,24 @@ footer {
   background-image: linear-gradient(#0099c2, #043947);
   text-align: center;
   box-shadow: 2px 5px 5px rgba(53, 55, 58, 0.781);
+  color: #fff;
 }
 
+footer p {
+  line-height: 20px;
+}
+footer a {
+  color: fuchsia;
+  font-weight: bolder;
+}
+
+footer p:first-child {
+  padding-top: 20px;
+}
+
+footer p:last-child {
+  padding: 20px 0 35px 0;
+}
 /* icone 
 
 icona matita -> <i class="fas fa-pen-square"></i> icona orologio -> <i class="fas fa-clock"></i> 
